@@ -1,0 +1,16 @@
+#whush-chrome-extension-frame-box-close-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: darkslategray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+#whush-chrome-extension-frame-box-close-btn:hover {
+  cursor: pointer;
+}

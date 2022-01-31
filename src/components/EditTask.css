@@ -1,0 +1,122 @@
+.CreateTask {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 10%;
+  margin: "0px !important";
+  padding: "0px !important";
+}
+
+.newTaskName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskType {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createTaskButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  min-height: 470px;
+  width: 100%;
+  background-color: white;
+  margin: 0px !important;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px !important;
+}
+
+.item {
+  width: 90%;
+  height: 60px;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin: 0px !important;
+  padding: 20px;
+}
+
+.card-header {
+  width: 90%;
+  height: 70px;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.save-task-btn {
+  background-color: #222222 !important;
+  display: flex !important;
+  border: none !important;
+  width: 40% !important;
+  border-radius: 20px !important;
+  font-weight: 500 !important;
+  justify-content: center !important;
+  margin-left: 10px !important;
+}
+
+.save-task-btn:hover {
+  background-color: #222222 !important;
+  border: none !important;
+}
+
+.cancel-task-edit-btn {
+  background-color: #222222 !important;
+  border: none !important;
+  width: 40% !important;
+  border-radius: 20px !important;
+  font-weight: 500 !important;
+  margin-right: 10px !important;
+}
+
+.cancel-task-edit-btn:hover {
+  background-color: #222222 !important;
+  border: none !important;
+}
+
+.ant-picker {
+  width: 100%;
+}
+
+.ant-select-selector {
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ant-form-item-control-input-content {
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.action-btns-container {
+  display: flex !important;
+  width: 90% !important;
+  justify-content: space-evenly !important;
+}

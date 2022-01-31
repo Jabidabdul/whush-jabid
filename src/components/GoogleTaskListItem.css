@@ -1,0 +1,54 @@
+.google-task-item-normal {
+  border: none !important;
+  outline: none !important;
+  text-overflow: ellipsis !important;
+  width: 80% !important;
+}
+
+.google-task-item-normal:focus, .google-task-item-normal::selection, .google-task-item-normal:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  text-overflow: ellipsis !important;
+}
+
+.google-task-item-normal:focus, .google-task-item-normal:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+html {
+  --antd-wave-shadow-color: none !important;
+}
+
+.google-task-name-tooltip {
+  width: 100%;
+  display: flex;
+}
+
+.google-task-link-container {
+  width: 5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+}
+
+.google-task-date-time {
+  width: 33% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 30px;
+}
+
+.google-calendar-task-link {
+  text-decoration: underline;
+  color: #222222 !important;
+}
+
+google-calendar-task-link:hover {
+  text-decoration: underline;
+  color: #222222 !important;
+}

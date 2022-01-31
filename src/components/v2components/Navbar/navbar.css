@@ -1,0 +1,116 @@
+.navbar {
+  position: relative;
+  align-items: center;
+  background-color: var(--primaryprimary);
+  display: flex;
+  height: 48px;
+  left: 0;
+  width: 500px;
+  padding: 0 20px;
+  top: 0;
+  justify-content: space-between;
+}
+
+.navbar-overlay {
+  position: fixed;
+  top: 48px;
+  left: 0px;
+  width: 100%;
+  height: 120vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 500;
+}
+
+
+.navbar__app-logo {
+  cursor: pointer;
+}
+
+.navbar__navbar-buttons {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  min-width: 144px;
+  position: relative;
+}
+
+.navbar__navbar-buttons__navbar-button {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin-left: 18px;
+}
+
+.navbar__navbar-buttons__navbar-button--setting {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__navbar-buttons__navbar-button--setting:hover {
+  transform: rotateZ(0.5turn) scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.navbar__navbar-buttons__navbar-button--setting:active {
+  transform: rotateZ(0.5turn) scale(1);
+  transition-duration: 0s;
+}
+
+.invite-people-fixed {
+  position: fixed;
+  width: 374px;
+  height: 222px;
+  left: 60px;
+  top: 56px;
+  background-color: white;
+  z-index: 520;
+  border-radius: 8px;
+  padding: 32px 29px;
+}
+
+.invite-people__container {
+  position: relative;
+}
+
+.invite-people__triangle-point {
+  position: absolute;
+  top: -48px;
+  right: -25px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid white;
+}
+
+.invite-people__text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.invite-people__input__input-field {
+  height: 48px;
+  margin-top: 6px;
+  border: 1px solid #D9DBE9;
+  border-radius: 8px;
+  color: #A0A3BD;
+  background: #EFF0F7;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.invite-people__invite-button {
+  margin-top: 16px;
+  width: 50%;
+  font-weight: 600;
+  font-size: 16px;
+}

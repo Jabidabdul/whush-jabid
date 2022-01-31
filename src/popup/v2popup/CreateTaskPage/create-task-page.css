@@ -1,0 +1,243 @@
+.create-task-page {
+
+}
+
+.top-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 29px;
+}
+
+.top-bar__back-button {
+    margin: 0 10px;
+    height: 16px;
+    width: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.top-bar__back-button__img {
+    margin-top: -5px;
+}
+
+.top-bar__title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    width: 320px;
+    text-align: left;
+}
+
+.top-bar__draft-button {
+    color: var(--primaryprimary);
+    cursor: pointer;
+}
+
+.task-input {
+    margin-top: 48px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/*.ant-input {*/
+/*    height: 36px;*/
+/*    width: 418px;*/
+/*    margin-top: 6px;*/
+/*    border: 1px solid #D9DBE9;*/
+/*    border-radius: 8px;*/
+/*    color: #A0A3BD;*/
+/*    background: #EFF0F7;*/
+/*    font-size: 14px;*/
+/*    line-height: 17px;*/
+/*    padding-left: 20px;*/
+/*    padding-right: 20px;*/
+/*}*/
+
+.task-input__input-field {
+    height: 48px;
+    width: 452px;
+    margin-top: 6px;
+    border: 1px solid #D9DBE9;
+    border-radius: 8px;
+    color: #A0A3BD;
+    background: #EFF0F7;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.task-input__task-name-label {
+
+}
+
+.task-input__task-name-input  {
+    height: 46px;
+    position: relative;
+}
+
+.task-input__add-people-label {
+    margin-top: 32px;
+}
+
+.task-input__add-people-input {
+    height: 46px;
+    position: relative;
+}
+
+.task-input__radio-title {
+    margin-top: 32px;
+}
+
+.task-input__radio-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.task-input__radio-input {
+    cursor: pointer;
+    margin-right: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.task-input__radio-input__radio-label {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 8px;
+}
+
+.task-input__date-time {
+    margin-top: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.task-input__date {
+    width: 312px;
+}
+
+.task-input__time {
+    margin-left: 24px;
+    width: 116px;
+}
+
+.ant-datepicker-custom {
+    height: 48px;
+    width: 312px;
+    margin-top: 6px;
+    border: 1px solid #D9DBE9;
+    border-radius: 8px;
+    color: #A0A3BD;
+    background: #EFF0F7;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ant-timepicker-custom {
+    height: 48px;
+    width: 116px;
+    margin-top: 6px;
+    border: 1px solid #D9DBE9;
+    border-radius: 8px;
+    color: #A0A3BD;
+    background: #EFF0F7;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.action-buttons {
+    margin-top: 43px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.action-buttons__additional-info {
+    margin-right: 12px;
+}
+
+.action-buttons__create-task {
+    margin-left: 12px;
+}
+
+.additional-info {
+    margin-top: 32px;
+}
+
+.additional-info__label-drop-down-container {
+    position: relative;
+}
+
+.additional-info__label-drop-down {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.additional-info__label-drop-down-down-arrow {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.label-dropdown-add-input {
+    display: flex;
+    align-items: center;
+}
+
+.label-add-button {
+    margin-left: 10px;
+    width: 25%;
+    font-size: 30px;
+    font-weight: 600;
+    height: 48px;
+}
+
+.additional-info__note-label {
+    margin-top: 32px;
+}
+
+.additional-info__note-input {
+    height: 154px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.attach-buttons {
+    margin-top: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.attach-buttons__attach-file {
+    margin-right: 12px;
+}
+
+.attach-buttons__screenshot {
+    margin-left: 12px;
+}
+
+.attach-button-icon-relative {
+    position: relative;
+}
+
+.attach-button-icon {
+    margin-right: 5px;
+    margin-bottom: 3px;
+}

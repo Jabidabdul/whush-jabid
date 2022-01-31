@@ -1,0 +1,140 @@
+.search-container {
+    background-color: white;
+    display: flex;
+    margin: 20px 0;
+    height: 46px;
+}
+
+.search-container .search-options {
+    margin: 10px 0 10px 10px;
+
+}
+
+.user-input {
+    height: 46px;
+    position: relative;
+}
+
+.user-input .search-icon {
+    position: absolute;
+    right: 5px;
+    top: 9px;
+}
+
+.search-input-field {
+    height: 36px;
+    width: 347px;
+    margin: 3px 0;
+    border: 1px solid #D9DBE9;
+    border-radius: 8px;
+    color: #A0A3BD;
+    background: #EFF0F7;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+
+.button-animate:hover {
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+}
+
+.button-animate:active {
+    transform: scale(1.0);
+    transition-duration: 0s;
+}
+
+.search {
+    color: var(--darksplaceholder);
+    font-weight: 400;
+    min-height: 17px;
+    width: 284px;
+}
+
+.search-option-relative {
+    position: relative;
+}
+
+.expand-search-calendar {
+    position: absolute;
+    left: 25px;
+    top: 12px;
+    z-index: 100;
+}
+
+.expand-search-calendar__ant-calendar {
+    visibility: hidden;
+}
+
+.expand-search-sort {
+    position: absolute;
+    left: -190px;
+    top: 30px;
+    background: white;
+    border-radius: 8px;
+    width: 220px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.expand-search-sort-triangle {
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 20px solid white;
+    position: absolute;
+    left: 173px;
+    top: -10px;
+}
+
+.expand-search-sort-option {
+    cursor: pointer;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4E4B66;
+}
+
+.expand-search-sort-option:hover {
+    background-color: lightgray;
+}
+
+
+.expand-search-filter {
+    position: absolute;
+    left: -190px;
+    top: 30px;
+    background: white;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.expand-search-filter-triangle {
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 20px solid white;
+    position: absolute;
+    left: 173px;
+    top: -10px;
+}
+
+.expand-search-filter-option {
+    cursor: pointer;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4E4B66;
+}
+
+.expand-search-filter-option:hover {
+    background-color: lightgray;
+}

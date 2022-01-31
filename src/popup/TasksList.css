@@ -1,0 +1,151 @@
+.tasks-list {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.task-list-item-action-btn {
+    font-size: 16px;
+}
+
+.ant-checkbox-checked, .ant-checkbox-inner {
+    border-radius: 50% !important;
+    border: 1px solid;
+}
+
+.ant-typography-expand, .ant-typography-edit, .ant-typography-copy {
+    width: 20px !important;
+    margin-left: 20px !important;
+    color: black !important;
+}
+
+.task-list-item {
+    width: 90%;
+    display: flex !important;
+    padding-left: 10px !important;
+    align-items: center !important;
+}
+
+.ant-typography-single-line {
+    margin-bottom: 0 !important;
+}
+
+.ant-tooltip-inner {
+    color: white !important;
+    background-color: #282828 !important;
+}
+
+.ant-tooltip-placement-bottom .ant-tooltip-arrow, .ant-tooltip-placement-bottomLeft .ant-tooltip-arrow, .ant-tooltip-placement-bottomRight .ant-tooltip-arrow {
+    border-bottom-color: dashed darkgray !important;
+}
+
+.ant-collapse-content-box {
+    padding: 0 5px !important;
+}
+
+.ant-checkbox-inner {
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.ant-checkbox:hover, .ant-checkbox-inner:hover .ant-checkbox-checked:hover {
+    height: 18px !important;
+    width: 18px !important;
+    border: none;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: green !important;
+    border-color: green !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.reload-google-tasks-icon {
+    font-size: 20px;
+}
+
+.reload-google-tasks-icon:hover {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.reload-google-tasks-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.ant-collapse-item {
+    background-color: #eeeeee !important;
+    border-bottom: .5px solid #a9a9a9!important;
+}
+
+.todays-tasks-panel-header {
+    width: 95%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-done-progress-bar {
+    width: 50% !important;
+}
+
+.ant-progress-bg {
+    height: 15px !important;
+    background-color: #222222;
+}
+
+.ant-progress-inner {
+    background-color: #a9a9a9;
+}
+
+.ant-progress-text {
+    font-weight: 600;
+}
+
+.overdue-tasks-panel-header {
+    width: 95%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overdue-task-undo-link {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #222222 !important;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.overdue-task-undo-link:hover {
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.google-calendar-tasks-panel-header {
+    width: 95%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.google-task-settings-icon {
+    font-size: 20px;
+}
+
+.google-task-settings-icon:hover {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.google-task-header-action-container {
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+}

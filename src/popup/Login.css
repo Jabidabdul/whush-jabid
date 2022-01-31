@@ -1,0 +1,127 @@
+.login-form-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background: #6959CF;
+}
+
+.login-btn {
+    width: 100% !important;
+    height: 51px;
+    background: #7061D1;
+    border-radius: 8px;
+    color: white !important;
+    font-weight: 600 !important;
+    margin-top: 16px !important;
+}
+
+.login-btn:hover, .login-btn:focus {
+    width: 100% !important;
+    height: 51px;
+    background: #4937BE !important;
+    border-radius: 8px;
+    border: none !important;
+    color: white !important;
+    font-weight: 600 !important;
+    margin-top: 16px !important;
+}
+
+.create-account-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.login-form {
+    width: 450px;
+    height: 568px;
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    background: #F7F7FC;
+    border-radius: 16px;
+}
+
+.user-input {
+    height: 73px;
+    margin-bottom: 16px;
+}
+
+.login-btn-and-error-msg-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn-and-error-msg-container>div>div>div {
+    flex-direction: column !important;
+}
+
+.login-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.login-whush-logo-container {
+    margin-bottom: 24px;
+}
+
+.login-with-label {
+    margin: 0;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.sso-login-icons-container {
+    padding-bottom: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #D9DBE9;
+}
+
+#root>div>form>div:nth-child(2)>div>div>.ant-form-item-control-input-content {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+#root>div>form>div:nth-child(3)>div>div>.ant-form-item-control-input-content {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.login-input-label {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    margin: 8px 0;
+}
+
+.login-input-field {
+    height: 48px;
+    margin: 8px 0px;
+    border: 1px solid #D9DBE9;
+    border-radius: 8px;
+    color: #A0A3BD;
+    background: #EFF0F7;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.ant-input-affix-wrapper>input.ant-input {
+    background: #EFF0F7 !important;
+}
+
+.signup-link-login-page {
+    color: #7061D1;
+}
+
+.signup-link-login-page:hover {
+    color: #4937BE !important;
+    font-weight: bold;
+}

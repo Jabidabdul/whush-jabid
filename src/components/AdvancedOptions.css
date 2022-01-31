@@ -1,0 +1,21 @@
+.upload-file-and-editor-container {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.ant-upload-select {
+  margin-bottom: 12px !important;
+}
+
+.ql-container {
+  height: 200px !important;
+  margin-bottom: 10px !important;
+}
+
+.ant-upload-list {
+  margin-bottom: 12px;
+}
+
+.take-screenshot-btn {
+  margin-bottom: 12px;
+}

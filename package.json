@@ -1,0 +1,44 @@
+{
+  "name": "whush-extension",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "antd": "^4.16.0",
+    "js-base64": "^3.6.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-collapse": "^5.1.0",
+    "react-dom": "^17.0.2",
+    "react-popper-tooltip": "^4.3.0",
+    "react-quill": "^1.3.5",
+    "react-redux": "^7.2.4",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "use-double-click": "^1.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build-react": "./script/build.sh react",
+    "build-others": "./script/build.sh others",
+    "build-all": "./script/build.sh react && ./script/build.sh others"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

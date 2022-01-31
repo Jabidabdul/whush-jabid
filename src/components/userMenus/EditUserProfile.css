@@ -1,0 +1,43 @@
+.edit-user-details {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.change-user-details-error-msg {
+  display: flex;
+  color: red;
+}
+
+.change-user-details-success-msg {
+  display: flex;
+  color: green;
+}
+
+.change-user-details-btn {
+  background-color: #222222 !important;
+  border: none !important;
+  text-decoration: none !important;
+  outline: none !important;
+  width: 80%;
+}
+
+.edit-user-details-container {
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.user-profile-pic-container {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

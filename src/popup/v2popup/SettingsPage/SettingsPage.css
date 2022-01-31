@@ -1,0 +1,157 @@
+.settings-page__tabs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 7px;
+    margin-bottom: 35px;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 29px;
+}
+
+.top-bar__back-button {
+    margin: 0 10px;
+    height: 16px;
+    width: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.top-bar__back-button__img {
+    margin-top: -5px;
+}
+
+.top-bar__title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    width: 320px;
+    text-align: left;
+}
+
+.top-bar__draft-button {
+    color: var(--primaryprimary);
+    cursor: pointer;
+}
+
+.settings-page__tabs__tab {
+    margin-top: 34px;
+    text-align: center;
+    /*width: 130px;*/
+    cursor: pointer;
+
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.tab-underline-div {
+    height: 4px;
+    width: 24px;
+    background-color: #4937bd;
+    border-radius: 8px;
+    margin: 5px auto auto;
+}
+
+.active-tab {
+    font-weight: 600;
+    color: #4937bd;
+}
+
+.account-settings__label {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.account-settings__input-field {
+    height: 48px;
+    width: 452px;
+    margin-top: 8px;
+    border: 1px solid #D9DBE9;
+    border-radius: 8px;
+    color: #A0A3BD;
+    background: #EFF0F7;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.account-settings__linked-calendars {
+    margin-top: 16px;
+}
+
+.account-settings__calendar-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 16px;
+}
+
+.account-settings__calendar-account {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.account-settings__calendar-email {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.account-settings__calendar-remove {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #6E7191;
+}
+
+.account-settings__link-calendar-button {
+    margin-top: 16px;
+    width: 209px;
+    height: 56px;
+}
+
+.notification-settings__do-not-disturb__label {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.notification-settings__do-not-disturb__button {
+    margin-top: 16px;
+    width: 227px;
+    height: 56px;
+}
+
+.notification-settings__days-off {
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.notification-settings__days-off-select-container {
+    margin-top: 16px;
+    width: 452px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.days-off__day {
+    border-radius: 0;
+}
+
+.days-off__day--first {
+    border-radius: 8px 0 0 8px;
+}
+
+.days-off__day--last {
+    border-radius: 0 8px 8px 0;
+}

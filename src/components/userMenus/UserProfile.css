@@ -1,0 +1,38 @@
+.user-details {
+  width: 80%;
+  height: 100%;
+}
+
+.user-details-container {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.user-profile-pic-container {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.user-details-item-container {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.user-details-item-label {
+  font-weight: 700;
+  font-size: 16px;
+  width: 140px;
+}
+
+.user-details-item-value {
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 10px;
+}

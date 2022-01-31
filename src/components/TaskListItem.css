@@ -1,0 +1,77 @@
+.task-item-normal {
+  border: none !important;
+  outline: none !important;
+  text-overflow: ellipsis !important;
+  width: 100% !important;
+  padding-left: 7px !important;
+}
+
+.task-edit {
+  text-overflow: ellipsis !important;
+  width: 100% !important;
+}
+
+.task-item-normal:focus, .task-item-normal::selection, .task-item-normal:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  text-overflow: ellipsis !important;
+}
+
+.task-item-normal:focus, .task-item-normal:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.task-item-normal:hover {
+  cursor: pointer;
+}
+
+html {
+  --antd-wave-shadow-color: none !important;
+}
+
+.task-edit:focus, .task-edit:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: gainsboro;
+  text-overflow: ellipsis !important;
+}
+
+.task-done-checkbox {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.task-name-tooltip {
+  width: 70%;
+  display: flex;
+}
+
+.task-action-items-btn-container {
+  width: 4%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.task-date-time {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.task-tooltip {
+  width: 100%;
+}
+
+.whush-tooltip-container {
+  z-index: 10000 !important;
+  background-color: black;
+  color: white;
+}
+
+.whush-tooltip-arrow {
+  color: black;
+}

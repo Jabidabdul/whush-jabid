@@ -1,0 +1,67 @@
+.fab-container {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 9998;
+}
+
+.fab-icon {
+    float: right;
+    margin-right: 5px;
+    z-index: 9998;
+    height: 120px;
+    width: 120px;
+}
+
+.fab-icon:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.fab-icon:active {
+    transform: scale(1);
+    transition-duration: 0s;
+}
+
+.fab-option {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fab-option:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.fab-option:active {
+    transform: scale(1);
+    transition-duration: 0s;
+}
+
+.fab-text {
+    margin: auto 20px auto auto;
+    padding: 8px 22px;
+    border: 1px solid #D9DBE9;
+    border-radius: 10px;
+    background-color: #FCFCFC;
+}
+
+.fab-icon-img-container {
+    margin-left: auto;
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #D9DBE9;
+    position: relative;
+    background-color: #FCFCFC;
+}
+
+.fab-icon-img-container .fab-icon-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

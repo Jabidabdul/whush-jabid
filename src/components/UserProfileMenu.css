@@ -1,0 +1,66 @@
+.use-profile-menu {
+  width: 100%;
+  height: 100%;
+}
+
+.user-menu {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+.user-menu-left-panel {
+  width: 30% !important;
+}
+
+.back-to-task-list-link {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  border-bottom: 0.5px solid #222222;
+}
+
+.back-link-text {
+  padding-left: 5px;
+  text-decoration: none;
+  text-decoration: underline;
+  color: black;
+}
+
+.back-link-text:hover {
+  padding-left: 5px;
+  text-decoration: none;
+  text-decoration: underline;
+  color: black;
+}
+
+.ant-menu-item {
+  padding-left: 14px !important;
+}
+
+.menu-details {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #b68eff;
+  color: #222222;
+  background-color: #b68eff;
+  color: #222222;
+  border-right: 4px solid #222222 !important;
+}
+
+.ant-menu-inline .ant-menu-item:after, .ant-menu-vertical-left .ant-menu-item:after, .ant-menu-vertical-right .ant-menu-item:after, .ant-menu-vertical .ant-menu-item:after {
+  border: none !important;
+}
+
+.ant-menu-item:hover {
+  color: #222222 !important;
+  background-color: #b68eff !important;
+}

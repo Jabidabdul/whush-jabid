@@ -1,0 +1,89 @@
+.task-detail-item {
+  border-bottom: 0.5px solid lightgray;
+  width: 100%;
+  display: flex;
+  min-height: 42px;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.task-details-container {
+  min-height: 100% !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  background: whitesmoke;
+  overflow: scroll;
+  padding: 20px 40px !important
+}
+
+.back-to-events-list-btns-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.edit-full-task-btn {
+  width: 40px;
+  border-radius: 10px;
+  background-color: #222222 !important;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+}
+
+.back-to-events-list-btn {
+  width: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: #222222 !important;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+}
+
+.task-detail-item-label {
+  min-width: 25%;
+}
+
+.task-detail-item-value {
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 10px !important;
+}
+
+.attachment-download-link {
+  color: black !important;
+  text-decoration: none;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.task-detail-item-description {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.task-advance-description-container {
+  width: 90%;
+  display: block !important;
+  align-items: center;
+  width: 100%;
+  border: 1px solid lightslategray;
+  padding: 10px 10px 5px 10px;
+}
+
+.task-detail-item-description-label {
+  height: 42px;
+  display: flex;
+  align-items: center;
+}

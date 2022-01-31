@@ -1,0 +1,300 @@
+/*:root {*/
+/*    --black: #000000;*/
+/*    --darksbody: #4e4a66;*/
+/*    --darkslabel: #6e7191;*/
+/*    --darksplaceholder: #a0a3bd;*/
+/*    --darkstitle: #14132a;*/
+/*    --lightsbg: #f6f7fb;*/
+/*    --lightsinputbg: #eff0f6;*/
+/*    --lightsline: #d9dbe8;*/
+/*    --lightsoffwhite: #fcfcfc;*/
+/*    --primaryprimary: #6f61d0;*/
+/*    --primaryprimary-dark-taint: #4937bd;*/
+/*    --primaryprimary-light-taint: #c39ceb;*/
+/*    --priorityhighpriority-high: #fa675c;*/
+/*    --priorityhighpriority-high-light-taint: #fea59f;*/
+/*    --prioritylowpriority-low: #2ab1fc;*/
+/*    --prioritylowpriority-low-light-taint: #33dbff;*/
+/*    --prioritymediumpriority-medium: #fdb810;*/
+/*    --font-size-l: 16px;*/
+/*    --font-size-m: 14px;*/
+/*    --font-size-s: 12.8px;*/
+/*    --font-size-xl: 18px;*/
+/*    --font-size-xs: 12px;*/
+/*    --font-size-xxl: 24px;*/
+/*    --font-size-xxxl: 32px;*/
+/*    --font-family-inter: "Inter", Helvetica;*/
+/*    --font-family-roboto: "Roboto", Helvetica;*/
+/*}*/
+
+/*body {*/
+/*    font-family: var(--font-family-inter);*/
+/*    font-style: normal;*/
+/*}*/
+
+.badge-animation:hover {
+    transform: rotateY(2turn);
+    transition-duration: 1s;
+}
+
+
+.dashboard {
+    margin-bottom: 24px;
+    height: 207px;
+    position: relative;
+    width: 452px;
+}
+
+.dashboard-time-text {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.dashboard-text-primary {
+    color: white;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.status-light {
+    height: 100px;
+    width: 100px;
+}
+
+
+.status {
+    background-color: var(--primaryprimary-dark-taint);
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 35px;
+    left: 368px;
+    position: absolute;
+    top: 0;
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.status .status-light {
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status .status-light-img {
+    margin-left: -10px;
+}
+
+.status p {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.frame-188 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 30px;
+    min-height: 199px;
+    position: absolute;
+    top: 8px;
+    width: 380px;
+}
+
+.text-2 {
+    color: var(--lightsbg);
+    font-weight: 400;
+    min-height: 17px;
+}
+
+.frame-181 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 27px; */
+    min-height: 155px;
+    position: relative;
+    width: 380px;
+}
+
+.frame-187 {
+    margin-top: 25px;
+    align-items: flex-end;
+    display: flex;
+    height: 36px;
+    min-width: 380px;
+    position: relative;
+}
+
+.text-1 {
+    color: var(--lightsbg);
+    font-weight: 600;
+    margin-bottom: -2px;
+    margin-left: 8px;
+    min-height: 38px;
+    width: 213px;
+}
+
+.your-tasks {
+    color: var(--lightsbg);
+    font-weight: 600;
+    margin-top: 10px;
+    min-height: 17px;
+}
+
+.bg-pattern-card {
+    align-items: flex-start;
+    background-color: var(--primaryprimary);
+    border-radius: 8px;
+    display: flex;
+    height: 200px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 452px;
+}
+
+.union {
+    height: 100%;
+    margin-left: 25px;
+    margin-top: 0;
+    width: 100%;
+}
+
+.badges {
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1px;
+    min-width: 32px;
+    padding: 0 2.6px;
+}
+
+.overlap-group1 {
+    /* background-image: url('https://cdn.vox-cdn.com/thumbor/8tLchaDMIEDNzUD3mYQ7v1ZQL84=/0x0:2012x1341/920x613/filters:focal(0x0:2012x1341):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg'); */
+    /* background-color: #2ab1fc; */
+    background-size: 100% 100%;
+    height: 32px;
+    position: relative;
+    width: 26px;
+}
+
+.frame {
+    align-items: flex-end;
+    display: flex;
+    height: 14px;
+    left: 6px;
+    padding: 1.1px 2.6px;
+    position: absolute;
+    top: 9px;
+    width: 14px;
+}
+
+.overlap-group {
+    height: 12px;
+    position: relative;
+    width: 9px;
+}
+
+.vector {
+    height: 1px;
+    left: 4px;
+    position: absolute;
+    top: 6px;
+    width: 1px;
+}
+
+.vector-1 {
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 9px;
+}
+
+.mask-group {
+    /* height: 40px; */
+    width: 40px;
+}
+
+.task-counter-card-container {
+    align-items: flex-start;
+    display: flex;
+    height: 82px;
+    margin-top: 12px;
+    min-width: 380px;
+    position: relative;
+}
+
+.task-counter-card {
+    align-items: flex-start;
+    background-color: var(--priorityhighpriority-high-light-taint);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 82px;
+    padding: 12px 8px;
+    width: 116px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.task-counter-card:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+.task-counter-card .task-counter-card-number {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.remaining {
+    color: var(--lightsoffwhite);
+    font-weight: 600;
+    min-height: 19px;
+    width: 94px;
+}
+
+.number {
+    color: var(--lightsoffwhite);
+    font-weight: 600;
+    margin-top: 10px;
+    min-height: 29px;
+}
+
+.task-counter-card.second-card {
+    background-color: var(--prioritylowpriority-low-light-taint);
+    margin-left: 16px;
+}
+
+.task-counter-card.third-card {
+    background-color: var(--primaryprimary-light-taint);
+    margin-left: 16px;
+}
+
+.task-counter-card.frame-130 .remaining {
+    width: 71px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400,600|Roboto:400,500");
